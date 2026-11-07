@@ -1,0 +1,24 @@
+# Gripello Docs
+
+## Documentation Sets
+
+- [Gripello Docs](https://docs.gripello.com/llms-full.txt)
+
+## Docs
+
+Every page below is available as raw markdown.
+
+- [API](https://docs.gripello.com/raw/api.md): Every endpoint of the Gripello API, as served by gripello.app.
+- [Guide](https://docs.gripello.com/raw/guide.md): How to do things in Gripello, step by step.
+- [Account](https://docs.gripello.com/raw/guide/account.md): Sign up, sign in, password, two-factor, your data.
+- [Gym admin](https://docs.gripello.com/raw/guide/admin.md): Staff, roles, map, settings, moderation.
+- [Climbing](https://docs.gripello.com/raw/guide/climbing.md): Find routes, log ascents, follow friends.
+- [Competitions](https://docs.gripello.com/raw/guide/competitions.md): Enter a competition or run one: categories, judging, live ranking.
+- [Setting routes](https://docs.gripello.com/raw/guide/setting.md): For setters: routes, signs, walls, inventory, defects.
+- [Setup](https://docs.gripello.com/raw/setup.md): Self-host Gripello with Docker Compose.
+
+## Landing
+
+Every page below is available as raw markdown.
+
+- [/](https://docs.gripello.com/raw/index.md)

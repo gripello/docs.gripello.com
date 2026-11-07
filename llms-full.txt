@@ -1,0 +1,942 @@
+# API
+
+> Every endpoint of the Gripello API, as served by gripello.app.
+
+
+# Guide
+
+> How to do things in Gripello, step by step.
+
+<u-page-grid>
+<u-page-card description="Find routes, log ascents, follow friends." icon="i-lucide-mountain" title="Climbing" to="https://docs.gripello.com/guide/climbing">
+
+
+
+</u-page-card>
+
+<u-page-card description="Sign up, sign in, password, two-factor, your data." icon="i-lucide-user" title="Account" to="https://docs.gripello.com/guide/account">
+
+
+
+</u-page-card>
+
+<u-page-card description="For setters: routes, signs, walls, inventory, defects." icon="i-lucide-hammer" title="Setting routes" to="https://docs.gripello.com/guide/setting">
+
+
+
+</u-page-card>
+
+<u-page-card description="Enter a competition or run one: categories, judging, live ranking." icon="i-lucide-trophy" title="Competitions" to="https://docs.gripello.com/guide/competitions">
+
+
+
+</u-page-card>
+
+<u-page-card description="Staff, roles, map, settings, moderation." icon="i-lucide-settings" title="Gym admin" to="https://docs.gripello.com/guide/admin">
+
+
+
+</u-page-card>
+</u-page-grid>
+
+
+# Account
+
+> Sign up, sign in, password, two-factor, your data.
+
+## Create an account
+
+1. Open **Sign in** and tap **Create account**.
+2. Enter first and last name, username, email and password.
+3. Open the link in the email to verify your address.
+4. Sign-up only shows when the operator allows it; otherwise ask your gym for an invitation.
+
+<shot name="register" title="Create an account">
+
+
+
+</shot>
+
+## Sign in
+
+1. Sign in with username or email and password, or with a passkey.
+2. With two-factor on, enter the code from your authenticator app next.
+
+<shot name="login" title="Sign in">
+
+
+
+</shot>
+
+## Reset your password
+
+1. On the sign-in page tap **Reset password**.
+2. Enter the email of your account and tap **Submit**.
+3. Open the link in the email (valid 30 minutes) and choose a new password. All other sessions are signed out.
+
+<shot name="reset" title="Reset your password">
+
+
+
+</shot>
+
+## Your account
+
+1. Tap your name at the bottom of the menu.
+2. Profile, friends, staff tools and the gyms you belong to.
+
+<shot name="account" title="Your account">
+
+
+
+</shot>
+
+## Edit your profile and email
+
+1. Open **Account → Settings → Profile**.
+2. Change name, avatar or banner.
+3. A new email address needs your password and is active once you open the confirmation link sent to it.
+
+<shot name="settings-profile" title="Edit your profile and email">
+
+
+
+</shot>
+
+## Language and theme
+
+1. **Settings → Preferences**: language, light/dark theme.
+
+<shot name="settings-preferences" title="Language and theme">
+
+
+
+</shot>
+
+## Change your password
+
+1. Open **Settings → Security**.
+2. Enter the current and the new password, then save.
+
+<shot name="settings-security" title="Change your password">
+
+
+
+</shot>
+
+## Turn on two-factor sign-in
+
+1. **Settings → Security → Two-factor authentication**.
+2. Set up an authenticator app or add a passkey.
+3. Store the recovery codes somewhere safe.
+
+## Sign out other devices
+
+1. **Settings → Security** lists active sessions; sign out the ones you do not recognise.
+
+## Download your data
+
+1. **Settings → Security → Download your data → Email me a link**.
+2. The link in the email works for 7 days.
+
+## Delete your account
+
+1. **Settings → Security → Delete account**.
+2. Routes and reviews you created stay; your profile, logbook and memberships are removed.
+
+## Notifications
+
+1. **Settings → Notifications**: turn on push for this device and pick the topics.
+
+<shot name="settings-notifications" title="Notifications">
+
+
+
+</shot>
+
+## Privacy
+
+1. **Settings → Privacy**: who can follow you, leaderboard visibility, your name on reviews, sharing sends.
+
+<shot name="settings-privacy" title="Privacy">
+
+
+
+</shot>
+
+## Activity log
+
+1. **Account → Activity**: sign-ins and changes to your account.
+
+<shot name="account-activity" title="Activity log">
+
+
+
+</shot>
+
+
+# Gym admin
+
+> Staff, roles, map, settings, moderation.
+
+## Invite staff
+
+1. **Users → Invite member**.
+2. Enter the email and pick a role; they get an invitation link.
+
+<shot name="invite" title="Invite staff">
+
+
+
+</shot>
+
+## Roles and permissions
+
+1. **Users → Roles & permissions**: create roles and tick what each may do.
+
+<shot name="roles" title="Roles and permissions">
+
+
+
+</shot>
+
+## Draw the gym map
+
+1. **Map editor**: pick a location, create the floor plan.
+2. Draw walls, mats and the entrance; **Save**.
+
+<shot name="admin-map" title="Draw the gym map">
+
+
+
+</shot>
+
+## Branding
+
+1. **Settings → Branding**: app logo, browser icon, logo on route signs, cover image.
+
+<shot name="admin-settings" title="Branding">
+
+
+
+</shot>
+
+## Grading scales
+
+1. **Settings → Grading scales**: the scale for routes and for boulders.
+
+<shot name="settings-grading" title="Grading scales">
+
+
+
+</shot>
+
+## TV screen
+
+1. **Settings → TV screen**: what the gym TV shows.
+
+<shot name="settings-tv" title="TV screen">
+
+
+
+</shot>
+
+## Gym TV
+
+1. Open `/<gym>/tv` on a screen in the gym.
+
+<shot name="tv" title="Gym TV">
+
+
+
+</shot>
+
+## Legal notice and privacy
+
+1. **Settings → Legal notice** and **Privacy page** fill the gym pages below, or link your own.
+
+<shot name="settings-legal" title="Legal notice and privacy">
+
+
+
+</shot>
+
+## Legal notice page
+
+1. Public at `/<gym>/imprint`.
+
+<shot name="imprint" title="Legal notice page">
+
+
+
+</shot>
+
+## Handle content reports
+
+1. **Moderation**: reported reviews and content.
+2. Hide or keep it; the reporter is notified (DSA).
+
+<shot name="manage-moderation" title="Handle content reports">
+
+
+
+</shot>
+
+## Reviews
+
+1. **Reviews**: read, filter and hide route reviews.
+
+<shot name="manage-comments" title="Reviews">
+
+
+
+</shot>
+
+
+# Climbing
+
+> Find routes, log ascents, follow friends.
+
+## Find your gym
+
+1. Open Gripello and search for your gym.
+2. Open it; Gripello remembers it for next time.
+
+<shot name="home" title="Find your gym">
+
+
+
+</shot>
+
+## See what is new
+
+1. The gym overview shows new routes per wall, your progress and running competitions.
+
+<shot name="overview" title="See what is new">
+
+
+
+</shot>
+
+## Find a route
+
+1. Open **Routes**.
+2. Filter by type, grade, colour, location or wall, or search by name, setter or grade.
+
+<shot name="routes" title="Find a route">
+
+
+
+</shot>
+
+## Find routes on the map
+
+1. Open **Map** and pick a hall.
+2. Tap a wall to list its routes.
+
+<shot name="map" title="Find routes on the map">
+
+
+
+</shot>
+
+## Scan a route sign
+
+1. Tap the scan button or open **Scan**.
+2. Point the camera at the QR code on the route sign; the route opens.
+
+<shot name="scan" title="Scan a route sign">
+
+
+
+</shot>
+
+## Log an ascent
+
+1. Open the route and tap **Log ascent**.
+2. Pick Flash, Top or Attempt, the number of attempts and the date; add a private note if you like.
+3. Save; the ascent lands in your logbook.
+
+<shot name="tick" title="Log an ascent">
+
+
+
+</shot>
+
+## Rate and review a route
+
+1. Open the route and tap **Write a review**.
+2. Give stars, pick the grade it felt like, add a comment, **Submit**.
+
+<shot name="review" title="Rate and review a route">
+
+
+
+</shot>
+
+## Report a problem with a route
+
+1. Open the route, tap **⋯** and **Report a problem**.
+2. Pick what is wrong (loose hold, missing tag …) and add details or a photo.
+3. The setters get it as a task.
+
+<shot name="defect" title="Report a problem with a route">
+
+
+
+</shot>
+
+## Keep a logbook
+
+1. Open **Logbook**: sessions, timeline, stats, projects and badges.
+2. Switch between boulders and routes and the time range at the top.
+
+<shot name="logbook" title="Keep a logbook">
+
+
+
+</shot>
+
+## Follow friends
+
+1. Open **Friends** and search for a climber.
+2. Tap **Follow**; climbers who approve followers see a request first.
+
+<shot name="friends" title="Follow friends">
+
+
+
+</shot>
+
+## Follow the feed
+
+1. Open **Feed**: sends of the people you follow and new routes on walls you follow.
+
+<shot name="feed" title="Follow the feed">
+
+
+
+</shot>
+
+## Climber profiles
+
+1. Tap a climber anywhere to see their sends, stats and achievements.
+
+<shot name="climber" title="Climber profiles">
+
+
+
+</shot>
+
+## Leaderboard
+
+1. Open **Leaderboard** for the gym ranking; switch boulders/routes and the period.
+2. Hide yourself in **Settings → Privacy**.
+
+<shot name="leaderboard" title="Leaderboard">
+
+
+
+</shot>
+
+## Opening hours and contact
+
+1. Open **Info** for opening hours, contact, facilities and address.
+
+<shot name="info" title="Opening hours and contact">
+
+
+
+</shot>
+
+
+# Competitions
+
+> Enter a competition or run one: categories, judging, live ranking.
+
+## Find a competition
+
+1. Open **Competitions** for upcoming, running and past events.
+
+<shot name="competitions" title="Find a competition">
+
+
+
+</shot>
+
+## Enter a competition
+
+1. Open it, fill in **Take part** and tap **Sign up**.
+2. Log your attempts on your phone while it runs; the ranking updates live.
+
+<shot name="competition" title="Enter a competition">
+
+
+
+</shot>
+
+## Rules
+
+1. **Rules** explains scoring, categories and fair play for this event.
+
+<shot name="competition-rules" title="Rules">
+
+
+
+</shot>
+
+## Create a competition
+
+1. **Staff tools → Competitions → New competition**.
+2. Pick discipline and scoring format, set the time, then add categories and boulders or routes.
+
+<shot name="competition-new" title="Create a competition">
+
+
+
+</shot>
+
+## Run it
+
+1. Move it through Draft → Registration open → Running → Ended → Results published.
+2. **Participants**: check climbers in. **Export** the results.
+
+<shot name="manage-competition" title="Run it">
+
+
+
+</shot>
+
+## Judge
+
+1. **Judging**: pick a boulder, then count tries, zone and top per climber.
+
+<shot name="manage-competition-judge" title="Judge">
+
+
+
+</shot>
+
+## Live ranking on a screen
+
+1. Open **TV view** on a screen at the venue; it refreshes by itself.
+
+<shot name="competition-tv" title="Live ranking on a screen">
+
+
+
+</shot>
+
+
+# Setting routes
+
+> For setters: routes, signs, walls, inventory, defects.
+
+## Staff tools
+
+1. Tap **Staff tools** in the menu. What you see depends on your role.
+
+<shot name="manage" title="Staff tools">
+
+
+
+</shot>
+
+## Add a route
+
+1. **Manage routes → Create route**.
+2. Set name, type, grade, anchor, location, setter, date and colour, then **Create**.
+3. Put it on its wall under **Routes & resets** (below).
+
+<shot name="route-create" title="Add a route">
+
+
+
+</shot>
+
+## Edit or archive routes
+
+1. Tap the pencil to edit a route.
+2. Select routes and **Archive** them when they come off the wall.
+3. **Import routes** reads a spreadsheet.
+
+<shot name="manage-routes" title="Edit or archive routes">
+
+
+
+</shot>
+
+## Print QR tags
+
+1. **Manage routes**: select the routes, tap **Print**.
+2. Pick language, layout and what to show, then **Export** a PDF; every tag carries the QR code climbers scan.
+
+<shot name="print" title="Print QR tags">
+
+
+
+</shot>
+
+## Place routes on walls
+
+1. **Routes & resets**: pick the hall.
+2. Drag routes from the list onto a wall; **Save**.
+
+<shot name="manage-map" title="Place routes on walls">
+
+
+
+</shot>
+
+## Take inventory
+
+1. **Inventory**: choose a location and tap **Start scanning**.
+2. Scan every route sign.
+3. **Finish inventory** archives the routes that were not found.
+
+<shot name="manage-inventory" title="Take inventory">
+
+
+
+</shot>
+
+## Fix defects
+
+1. Problems climbers report land in **Tasks**.
+2. Drag a task to In progress, Waiting or Done; the reporter is told when it is fixed.
+
+<shot name="manage-tasks" title="Fix defects">
+
+
+
+</shot>
+
+## Plan work
+
+1. **Tasks → New task**.
+2. Pick Reset, Maintenance or Other, give it a title and priority, the location or wall, who does it and by when.
+
+<shot name="task-new" title="Plan work">
+
+
+
+</shot>
+
+## Analytics
+
+1. Routes set, reviews, stars, grade distribution and how long routes stay up.
+
+<shot name="manage-analytics" title="Analytics">
+
+
+
+</shot>
+
+
+# Setup
+
+> Self-host Gripello with Docker Compose.
+
+## Setup Docker Compose
+
+Running Gripello in production requires a commercial license, see [License](#license).
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Download Docker Compose File
+
+```sh
+wget https://raw.githubusercontent.com/gripello/gripello/main/docker-compose.yml
+```
+
+### Docker Compose Configuration
+
+The downloaded `docker-compose.yml` runs the app container and PostgreSQL. Set
+`POSTGRES_PASSWORD` (e.g. in a `.env` file next to it) **before the first start**:
+PostgreSQL only reads it when its volume is created.
+
+```sh
+echo "POSTGRES_PASSWORD=$(openssl rand -hex 24)" > .env
+```
+
+To pin the latest release instead of the rolling build, change the app image:
+
+```yaml
+services:
+    gripello:
+        image: ghcr.io/gripello/gripello:latest
+```
+
+### Running the Project
+
+```sh
+docker-compose up -d
+```
+
+## Getting Started
+
+After `docker-compose up -d` completes, follow these steps to get the application ready.
+
+### 1. Open the Application
+
+Navigate to **https://localhost** in your browser.
+
+> The default setup uses a self-signed TLS certificate. Your browser will show a security warning — click "Advanced" → "Proceed" to continue. See [Custom TLS Certificate](#custom-tls-certificate) to use a real certificate.
+
+### 2. Create the Platform Admin
+
+Create the first account from the command line and make it a platform admin:
+
+```sh
+docker compose exec gripello gripello admin create-user \
+    --email admin@example.com --password 'a-long-password' \
+    --username admin --verified --platform-admin
+```
+
+Sign in at `https://localhost/auth/login`. Gyms, users and operator settings
+(mail, sign-in providers, backups, logs) are managed under `/platform`.
+
+### 3. Create a Gym
+
+Open **Platform → Gyms**, create a gym and invite its staff from the gym's
+member settings.
+
+### 4. Configure Email
+
+Without SMTP the app sends no mail at all — a user created in the UI never gets
+their invitation and cannot sign in, and the DSA Art. 16 notices are not
+delivered. Configure it under **Platform → Mail**, or set these in
+`docker-compose.yml` (the platform settings win once a host is saved there):
+
+<table>
+<thead>
+  <tr>
+    <th>
+      Variable
+    </th>
+    
+    <th>
+      Purpose
+    </th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td>
+      <code>
+        SMTP_HOST
+      </code>
+      
+       / <code>
+        SMTP_PORT
+      </code>
+    </td>
+    
+    <td>
+      Mail server. Setting the host enables SMTP.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code>
+        SMTP_USERNAME
+      </code>
+      
+       / <code>
+        SMTP_PASSWORD
+      </code>
+    </td>
+    
+    <td>
+      Credentials, if the server needs them.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code>
+        SMTP_TLS
+      </code>
+    </td>
+    
+    <td>
+      <code>
+        false
+      </code>
+      
+       for STARTTLS; anything else enforces TLS.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code>
+        APP_URL
+      </code>
+    </td>
+    
+    <td>
+      Origin used for links in mail.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code>
+        APP_NAME
+      </code>
+    </td>
+    
+    <td>
+      Name used in subject lines and signatures.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code>
+        SENDER_ADDRESS
+      </code>
+      
+       / <code>
+        SENDER_NAME
+      </code>
+    </td>
+    
+    <td>
+      From address and display name.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### 5. Configure Application Settings
+
+Go to **Admin → Settings** in the Gripello UI to configure:
+
+- Organisation name and logo
+- Privacy policy / imprint URL
+- Sign image for route cards
+- Grading scale for routes (UIAA, French, YDS) and boulders (Fontainebleau, V-Scale)
+
+### 6. Start Adding Routes
+
+Once signed in as gym staff, use the dashboard to add and manage climbing routes.
+
+## Custom TLS Certificate
+
+By default, a self-signed certificate is generated automatically at startup. To use your own certificate (e.g. from Let's Encrypt), mount it into the container:
+
+```yaml
+volumes:
+    - ./storage:/data/storage
+    - ./backups:/data/backups
+    - ./ssl/cert.pem:/etc/nginx/ssl/cert.pem:ro
+    - ./ssl/key.pem:/etc/nginx/ssl/key.pem:ro
+```
+
+## Rate Limiting
+
+Rate limits are enforced by the container's nginx and need no configuration. They are
+sized per client IP for a gym: generous on reads and route ratings, because a
+whole hall shares one address behind wifi NAT, and tight on sign-ins and on the
+endpoints that send mail. See the `limit_req` zones in `.docker/nginx.conf` for
+each rule. `RATE_LIMITS: 'off'` disables them.
+
+The container only believes `X-Forwarded-For` from the addresses in
+`TRUSTED_PROXIES` (default `127.0.0.1 ::1`). If you put another reverse proxy in
+front of it, make sure that proxy sets `X-Forwarded-For` and list its address or
+network, e.g. `TRUSTED_PROXIES: "172.18.0.0/16"`. Without it every visitor is
+bucketed as one client and the limits will start rejecting legitimate traffic.
+Never list networks that untrusted clients connect from: they could then pick
+their own IP and step around the limits.
+
+## Captcha (optional)
+
+Set `CAP_SECRET` to a long random string to require a solved
+[Cap](https://trycap.dev) proof-of-work challenge on the actions an anonymous
+visitor can trigger: creating a rating, filing a DSA notice, signing in, and the
+public password-reset form. Leave it unset and the captcha is simply off — every
+form keeps working, which is what an existing install gets after an upgrade.
+
+The puzzle solves itself during submit (about a second on a phone); there is no
+checkbox to tick, and the challenge is issued and verified entirely by this
+application. Signed-in staff are never asked.
+
+> **Note:** the solver's WebAssembly module is fetched from `cdn.jsdelivr.net`
+> at runtime by the upstream widget. Visitors' browsers therefore contact that
+> CDN, and the captcha degrades (or fails) on a network that cannot reach it.
+> Self-hosting that asset is possible via `window.CAP_CUSTOM_WASM_URL` and is
+> not yet wired up here.
+
+Turning it on also raises the two rate limits the captcha now backs, since each
+submission costs the client real work.
+
+## Stopping the Service
+
+```sh
+docker-compose down
+```
+
+Data is persisted in the `postgres` volume, `./storage` and `./backups`, and survives restarts.
+
+## License
+
+Gripello is source-available under the [Business Source License 1.1](https://github.com/gripello/gripello/blob/main/LICENSE), not an open source license.
+
+- You may copy, modify and redistribute the code and use it for non-production purposes such as development, testing and evaluation.
+- Production use, including self-hosting for a gym, requires a commercial license. Contact [hello@gripello.com](mailto:hello@gripello.com), or use the hosted version at [gripello.app](https://gripello.app).
+- Each version converts to the Apache License 2.0 four years after its release.
+
+Version 2.1.1 and earlier remain available under the GNU General Public License v3.0.
+
+
+<u-page-hero>
+<template v-slot:title="">
+
+Gripello documentation
+
+</template>
+
+<template v-slot:description="">
+
+Route management for climbing gyms. Hosted at [gripello.app](https://gripello.app), source available on [GitHub](https://github.com/gripello/gripello).
+
+</template>
+
+<u-page-grid className="text-left">
+<u-page-card description="Run your own install with Docker Compose: database, first admin, mail, TLS." icon="i-lucide-server" title="Setup" to="https://docs.gripello.com/setup">
+
+
+
+</u-page-card>
+
+<u-page-card description="Step by step with screenshots: climbing, your account, setting routes, competitions, gym admin." icon="i-lucide-images" title="Guide" to="https://docs.gripello.com/guide">
+
+
+
+</u-page-card>
+
+<u-page-card description="Every endpoint of the REST API that the app itself uses." icon="i-lucide-braces" title="API" to="https://docs.gripello.com/api">
+
+
+
+</u-page-card>
+</u-page-grid>
+</u-page-hero>
+
+## Resources for Agents
+
+- [API catalog: every service document this site publishes](https://docs.gripello.com/.well-known/api-catalog)
+- [Sitemap (XML)](https://docs.gripello.com/sitemap.xml)
+- [Sitemap (Markdown): every page on the site](https://docs.gripello.com/sitemap.md)
+- [MCP server card: MCP endpoint at https://docs.gripello.com/mcp](https://docs.gripello.com/.well-known/mcp/server-card.json)
+- [MCP endpoint (streamable HTTP)](https://docs.gripello.com/mcp)
+- [llms.txt: index of the documentation for LLMs](https://docs.gripello.com/llms.txt)
+- [llms-full.txt: the full documentation as a single file](https://docs.gripello.com/llms-full.txt)
+- [OpenAPI document: every route this site serves to agents](https://docs.gripello.com/openapi.json)
